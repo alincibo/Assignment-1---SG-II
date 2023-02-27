@@ -10,7 +10,7 @@ int main()
 	{
 		int age = 25;
 		if (age >= 26) {
-			cout << "Welcome old man.";
+			cout << "Welcome!";
 		}
 		else {
 			throw (age);
@@ -18,7 +18,7 @@ int main()
 	}
 	catch (int myAger)
 	{
-		cout << "You are to young \n";
+		cout << "You are too young! \n";
 		cout << "Your age is: " << myAger;
 	}
     return 0;
